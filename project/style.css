@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 1rem;
+    background-color: #dfe6e9;
+    font-family: 'Lato',sans-serif;
+}
+
+.read-more-container{
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    gap: 1rem;
+}
+
+.container{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+
+.read-more-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid #166534; /* Set the border color */
+    color: #166534; /* Set the text color */
+    border-radius: 30px;
+}
+
+.read-more-text{
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.read-more-text--show{
+    display: inline;
+    max-height: 1000px; /* Set a maximum height for the transition */
+}
