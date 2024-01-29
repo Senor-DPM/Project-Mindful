@@ -1,0 +1,182 @@
+*{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    height: 60vh;
+    background-color: rgb(172 243 172);
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 540px 410px 480px;
+}
+
+.img-counsellor{
+    width: 510px;
+    height: 400px;
+}
+
+.txt-therapists{
+    font-size: 80px;
+    align-self: center;
+    height: 60%;
+}
+
+.line{
+    padding-top: 80%;
+    color: #20ab20;
+    font-size: 20px;
+}
+
+
+.about-txt{
+    width: 650px;
+    height: auto;
+}
+
+.section2{
+    padding:50px;
+    display: flex;
+    height: auto;
+}
+
+.img-mental{
+    width: 40%;
+    margin-left: 160px;
+}
+
+.heading{
+    height: auto;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.section{
+    padding:50px;
+}
+
+.section3{
+    height: auto;
+    background-color: rgb(110 255 110);
+}
+
+.t-box-in{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 0px 60px 0px;
+    padding: 30px;
+    display: flex;
+}
+
+.t-box{
+    width: 100%;
+    height: 260px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.dname{
+    font-size: 45px;
+}
+
+.t-content{
+    padding: 0px 20px 10px 20px;
+    width: 2330px;
+}
+
+.btn-contact{
+    /* margin-left: 16%; */
+    width: 190px;
+    height: 50px;
+    /* margin-top: 4%; */
+    border: none;
+    background-color: lightgreen;
+    box-shadow: 1px 1px 8px -3px black;
+}
+
+.btn-contact:hover{
+    color: white;
+    background-color: #2dac2d;
+    border: 1px solid black
+}
+
+.btn-contact:active{
+    box-shadow: none;
+}
+
+.qualification{
+    color: grey;
+}
+
+.dabout{
+    margin: 9px 0px 27px 0px;
+}
+
+.t-heading{
+    height: auto;
+    font-size: 40px;
+    width: 60%;
+}
+
+.popup{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    padding:20px;
+}
+
+.contacts{
+    margin-top: 20px
+}
+
+.p-heading{
+    font-size: 37px;
+    margin-bottom: 9px;
+}
+
+.btn-close{
+    border: none;
+    background-color: white;
+    width: 140px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+}
+
+.btn-close:hover{
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.btn-close:active{
+    background-color: rgb(141, 6, 6);
+}
+
+.popup-window{
+    height: 100vh;
+    width: 98.9vw;
+    background-color: rgba(0, 0, 0, 0.442);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.btn-cont{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    
+}
+
+.btn-contact{
+    margin-top: 64px;
+}
